@@ -229,4 +229,8 @@ endif
 # Google sounds
 include vendor/aicp/google/GoogleAudio.mk
 
+#GoogleSansFonts
+include $(LOCAL_PATH)config/fonts.mk
+
+
 EXTENDED_POST_PROCESS_PROPS := vendor/aicp/tools/aicp_process_props.py
